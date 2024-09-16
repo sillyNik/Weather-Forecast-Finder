@@ -1,0 +1,137 @@
+
+body {
+    color : white;
+    font-family : arial;
+    /* max-width : 650px; */
+    margin : 0 auto;
+    padding : 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 100%, #DEF3F8 60%);
+}
+.title{
+    color:black;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+}
+.img {
+    width: auto;
+    height: 30vh;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: -1rem;
+}
+.navbar-1{
+    display: flex;
+    justify-content: right;
+}
+
+.main-content {
+    flex-grow : 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-grow : 1;
+    font-size: large;
+}
+.help-content{
+    margin: auto;
+    margin-top: 2rem;
+    width:65%;
+    padding: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+   color: white ;
+   border-top: 1px solid #eeeeee;
+   margin-top: 16px;
+   padding:16px 0;
+}
+
+input {
+   border : 1px solid #cccccc;
+   padding : 8px;
+}
+
+button {
+   cursor: pointer;
+   border: 1px solid white;
+   background-color: white;
+   color: white;
+   padding : 8px;
+}
+
+
+header {
+    margin-top : 16px;
+    margin-bottom:48px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+header a{
+     /* color : #888888; */
+     color: white;
+     margin-right: 16px;
+     text-decoration: none;
+}
+
+.portrait {
+     width: 230px;
+}
+.form{
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
+#button{
+    text-align: center;
+}
+.content-2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;   
+}
+.final-message{
+    padding-top: 3rem;
+    font-size: 19px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ul1{
+    font-size: large;
+    color: black;
+    letter-spacing: 0.5px;
+    
+}
+@media screen and (max-width: 700px) {
+    .form {
+        width: 90%;
+        padding-top: 1rem;
+    }
+    .img {
+        width: auto;
+        height: 25vh;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: -2.5rem;
+    }
+    .help-content{
+    margin: auto;
+    margin-top: 1.2rem;
+    width:90%;
+    padding: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+}
+

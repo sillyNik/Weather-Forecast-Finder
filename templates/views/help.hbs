@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/weather.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c6f76b.js" crossorigin="anonymous"></script>
+    <title>Help</title>
+</head>
+
+<body>
+    <nav class="bg-background border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <span class="title">Weather Forecast Finder</span>
+
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    id="ul1"
+                    class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="/" id="ul1">Weather</a>
+                    </li>
+                    <li>
+                        <a href="/help" id="ul1" >Help</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="main-content-2">
+        <main class="help-content">
+            <p>What is this webpage?</p>
+            <p>This is a very basic webpage that tells users about the weather in any location in the world. It
+                uses data from <a href="https://www.mapbox.com/" target="_blank">mapbox.com</a> and <a
+                    href="https://weatherstack.com/" target="_blank">weatherstack.com</a>.</p>
+            <br>
+            <p>How does it work?</p>
+            <p>It's very simple. Click on the 'weather' tab. On this page the user will find an input box where
+                he/she can type in the location they want. Click the 'search' button beside the input box and
+                you will get your results on the screen!
+            </p>
+            <br>
+            <p>I followed the instructions, but got the weather information from
+                some
+                other
+                place. What can I do?</p>
+            <p>In cases like this, I suggest users be more specific with their queries. What does this mean?
+                Don't just type in the city name, try typing in the country's name as well.</p>
+            <br>
+            <p> Techstacks used in this project :- Node.js , Express.js , Tailwind.css , HTML5 , CSS3 , Handlebars </p>
+        </main>
+    </div>
+    {{>footer}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+</body>
+
+</html>
